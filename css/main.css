@@ -1,0 +1,16 @@
+body
+{
+    margin:          0;
+    padding:         0;
+}
+#container
+{
+    height:         550px;
+    width:          100%;
+    background:     #000;
+}
+
+canvas
+{
+    cursor:         url('data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=='), auto;
+}
