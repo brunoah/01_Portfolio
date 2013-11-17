@@ -99,19 +99,19 @@
 
         scene.add( dae );
 
-        //particleLight = new THREE.Mesh( new THREE.SphereGeometry( 4, 8, 8 ), new THREE.MeshBasicMaterial( { color: 0xffffff } ) );
-        //scene.add( particleLight );
+       // particleLight = new THREE.Mesh( new THREE.SphereGeometry( 4, 8, 8 ), new THREE.MeshBasicMaterial( { color: 0xffffff } ) );
+       // scene.add( particleLight );
 
         // Lights
 
         scene.add( new THREE.AmbientLight( 0xcccccc ) );
 
-       /* var directionalLight = new THREE.DirectionalLight(/*Math.random() * 0xffffff*///0xeeeeee );
-        /*directionalLight.position.x = Math.random() - 0.5;
-        directionalLight.position.y = Math.random() - 0.5;
-        directionalLight.position.z = Math.random() - 0.5;
+       var directionalLight = new THREE.DirectionalLight(0xeeeeee );
+        directionalLight.position.x = -5;
+        directionalLight.position.y = -5;
+        directionalLight.position.z = 5;
         directionalLight.position.normalize();
-        scene.add( directionalLight );     */
+        scene.add( directionalLight );
 
         /*pointLight = new THREE.PointLight( 0xffffff, 4 );
         pointLight.position = particleLight.position;
@@ -185,9 +185,9 @@
 
         var timer = Date.now() * 0.0005;
 
-        //camera.position.x = Math.cos( timer ) * 5;
-        camera.position.y = 2;
-        //camera.position.z = Math.sin( timer ) * 5;
+        camera.position.x = Math.cos( timer ) * 10;
+        camera.position.y = 5;
+        camera.position.z = Math.sin( timer ) * 10;
 
         camera.lookAt( scene.position );
 
