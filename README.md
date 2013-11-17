@@ -1,7 +1,7 @@
-three.js
+﻿Portfolio 2014
 ========
 
-#### JavaScript 3D library ####
+#### Portfolio 2014 utilisant la librairie threejs.js ####
 
 The aim of the project is to create a lightweight 3D library with a very low level of complexity — in other words, for dummies. The library provides &lt;canvas&gt;, &lt;svg&gt;, CSS3D and WebGL renderers.
 

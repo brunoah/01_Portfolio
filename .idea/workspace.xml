@@ -8,12 +8,14 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/Untitled.dae" afterPath="$PROJECT_DIR$/models/Untitled.dae" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.html" afterPath="$PROJECT_DIR$/main.html" />
     </list>
     <ignored path="01_Portfolio.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="5235e5a9-0951-49a4-ac0b-a3a31b25e30f" time="1384682762377" ignored="false" />
-    <file path="/main.html" changelist="5235e5a9-0951-49a4-ac0b-a3a31b25e30f" time="1384683294197" ignored="false" />
+    <file path="/main.html" changelist="5235e5a9-0951-49a4-ac0b-a3a31b25e30f" time="1384685649649" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
       <file leaf-file-name="main.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="18" selection-start="702" selection-end="702" vertical-scroll-proportion="0.43037975">
+            <state line="4" column="46" selection-start="87" selection-end="87" vertical-scroll-proportion="0.12296564">
               <folding />
             </state>
           </provider>
@@ -307,7 +309,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="18" selection-start="702" selection-end="702" vertical-scroll-proportion="0.43037975">
+        <state line="4" column="46" selection-start="87" selection-end="87" vertical-scroll-proportion="0.12296564">
           <folding />
         </state>
       </provider>

@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>three.js webgl - collada</title>
+    <title>.:: Ahée Bruno - Portfolio 2014 ::.</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
     <style>
@@ -57,7 +57,7 @@
         dae = collada.scene;
         skin = collada.skins[ 0 ];
 
-        dae.scale.x = dae.scale.y = dae.scale.z = 0.002;
+        dae.scale.x = dae.scale.y = dae.scale.z = 0.005;
         dae.updateMatrix();
 
         init();
@@ -99,23 +99,23 @@
 
         scene.add( dae );
 
-        particleLight = new THREE.Mesh( new THREE.SphereGeometry( 4, 8, 8 ), new THREE.MeshBasicMaterial( { color: 0xffffff } ) );
-        scene.add( particleLight );
+        //particleLight = new THREE.Mesh( new THREE.SphereGeometry( 4, 8, 8 ), new THREE.MeshBasicMaterial( { color: 0xffffff } ) );
+        //scene.add( particleLight );
 
         // Lights
 
         scene.add( new THREE.AmbientLight( 0xcccccc ) );
 
-        var directionalLight = new THREE.DirectionalLight(/*Math.random() * 0xffffff*/0xeeeeee );
-        directionalLight.position.x = Math.random() - 0.5;
+       /* var directionalLight = new THREE.DirectionalLight(/*Math.random() * 0xffffff*///0xeeeeee );
+        /*directionalLight.position.x = Math.random() - 0.5;
         directionalLight.position.y = Math.random() - 0.5;
         directionalLight.position.z = Math.random() - 0.5;
         directionalLight.position.normalize();
-        scene.add( directionalLight );
+        scene.add( directionalLight );     */
 
-        pointLight = new THREE.PointLight( 0xffffff, 4 );
+        /*pointLight = new THREE.PointLight( 0xffffff, 4 );
         pointLight.position = particleLight.position;
-        scene.add( pointLight );
+        scene.add( pointLight );  */
 
         renderer = new THREE.WebGLRenderer();
         renderer.setSize( window.innerWidth, window.innerHeight );
@@ -185,15 +185,15 @@
 
         var timer = Date.now() * 0.0005;
 
-        camera.position.x = Math.cos( timer ) * 10;
+        //camera.position.x = Math.cos( timer ) * 5;
         camera.position.y = 2;
-        camera.position.z = Math.sin( timer ) * 10;
+        //camera.position.z = Math.sin( timer ) * 5;
 
         camera.lookAt( scene.position );
 
-        particleLight.position.x = Math.sin( timer * 4 ) * 3009;
-        particleLight.position.y = Math.cos( timer * 5 ) * 4000;
-        particleLight.position.z = Math.cos( timer * 4 ) * 3009;
+        //particleLight.position.x = Math.sin( timer * 4 ) * 3009;
+        //particleLight.position.y = Math.cos( timer * 5 ) * 4000;
+        //particleLight.position.z = Math.cos( timer * 4 ) * 3009;
 
         renderer.render( scene, camera );
 
